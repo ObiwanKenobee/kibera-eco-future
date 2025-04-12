@@ -1,6 +1,5 @@
-
 import React, { useRef, useEffect } from 'react';
-import { Users, Heart, Tree, LightbulbOff, HandHeart, LineChart } from 'lucide-react';
+import { Users, Heart, Trees, LightbulbOff, HandHeart, LineChart } from 'lucide-react';
 
 const Community = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -53,7 +52,7 @@ const Community = () => {
       color: 'bg-kibera-green/10 border-kibera-green/30' 
     },
     { 
-      icon: <Tree className="w-8 h-8 text-kibera-green" />, 
+      icon: <Trees className="w-8 h-8 text-kibera-green" />, 
       value: '12,000+', 
       label: 'Trees & Plants Added',
       color: 'bg-kibera-green/10 border-kibera-green/30' 

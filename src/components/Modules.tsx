@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { 
@@ -12,18 +11,18 @@ import {
   Sprout,
   Recycle,
   CloudRain,
-  SolarPanel,
+  Sun,
   Battery,
   Wind,
   Gauge,
-  Tree,
+  Trees,
   Fish,
   Salad,
   Wheat,
   GraduationCap,
   Computer,
   Video,
-  People,
+  Users as UsersGroup,
   Wallet,
   CreditCard,
   Store,
@@ -88,7 +87,7 @@ const Modules = () => {
       borderColor: 'border-kibera-solar/30',
       iconColor: 'text-kibera-solar',
       features: [
-        { text: 'Solar microgrid rooftops', icon: <SolarPanel className="w-5 h-5" /> },
+        { text: 'Solar microgrid rooftops', icon: <Sun className="w-5 h-5" /> },
         { text: 'Community battery bank', icon: <Battery className="w-5 h-5" /> },
         { text: 'Biogas digesters', icon: <Recycle className="w-5 h-5" /> },
         { text: 'Algae biofuel ponds', icon: <Wind className="w-5 h-5" /> },
@@ -105,7 +104,7 @@ const Modules = () => {
       features: [
         { text: 'Community aquaponics', icon: <Fish className="w-5 h-5" /> },
         { text: 'Rooftop farms', icon: <Salad className="w-5 h-5" /> },
-        { text: 'Food forests', icon: <Tree className="w-5 h-5" /> },
+        { text: 'Food forests', icon: <Trees className="w-5 h-5" /> },
         { text: 'Decentralized compost hubs', icon: <Recycle className="w-5 h-5" /> },
         { text: 'Bee & butterfly corridors', icon: <Wheat className="w-5 h-5" /> }
       ]
@@ -122,7 +121,7 @@ const Modules = () => {
         { text: 'Youth coding & green trades', icon: <GraduationCap className="w-5 h-5" /> },
         { text: 'VR ecological learning', icon: <Computer className="w-5 h-5" /> },
         { text: 'Local artists & eco-murals', icon: <Video className="w-5 h-5" /> },
-        { text: 'Community skill sharing', icon: <People className="w-5 h-5" /> }
+        { text: 'Community skill sharing', icon: <UsersGroup className="w-5 h-5" /> }
       ]
     },
     {
