@@ -134,7 +134,7 @@ const Modules = () => {
       features: [
         { text: 'Digital wallet integration', icon: <Wallet className="w-5 h-5" /> },
         { text: 'Circular local economy', icon: <Recycle className="w-5 h-5" /> },
-        { text: 'DAO-style governance', icon: <People className="w-5 h-5" /> },
+        { text: 'DAO-style governance', icon: <UsersGroup className="w-5 h-5" /> },
         { text: 'Marketplace for eco-crafts', icon: <Store className="w-5 h-5" /> },
         { text: 'Carbon offsets', icon: <Tag className="w-5 h-5" /> }
       ]
